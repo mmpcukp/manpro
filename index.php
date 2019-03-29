@@ -14,5 +14,9 @@
     echo $main_txt_r;
 ?>
 </h1>
+<<<<<<< HEAD
 <!--End Of Main Text-->
 
+=======
+<!--End Of Main Text-->
+>>>>>>> 0ff3572d563af2930917b13de13d54435f6ebef4
