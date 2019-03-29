@@ -16,3 +16,8 @@
 </h1>
 <!--End Of Main Text-->
 
+<?php
+    $main_img   = 'SELECT config_value FROM t_config WHERE config_id=3;';
+    $main_img_r = mysqli_fetch_assoc(mysqli_query($conn,$main_img))['config_value'];
+    
+?>
