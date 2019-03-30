@@ -1,0 +1,3 @@
+<?php
+?>
+Ini Adalah Footer
