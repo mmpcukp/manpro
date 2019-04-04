@@ -18,7 +18,7 @@
 <?php
     $main_img   = 'SELECT config_value FROM t_config WHERE config_id=3;';
     $main_img_r = mysqli_fetch_assoc(mysqli_query($conn,$main_img))['config_value'];
-    echo '<img src="'.$main_img_r.'">';
+    echo '<img width="100%" height="50%" src="'.$main_img_r.'">';
 ?>
 </a>
 <!--End Of Main OBJECT-->
